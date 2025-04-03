@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-const TOKEN = process.env.MAILTRAP_TOKEN || "2f2a629877ef4a48fc292cf8ed95573c";
+const TOKEN = process.env.MAILTRAP_TOKEN ;
 const TEMPLATE_UUID = "cc27c2b1-3bea-4317-ae36-f897a36c15b9"; 
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
