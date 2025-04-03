@@ -35,9 +35,3 @@ npm run dev
 ```
 5. **Visit** `http://localhost:3000` in your browser.
 
-## 📦 Deployment
-To build for production:
-```bash
-npm run build
-npm start
-```
